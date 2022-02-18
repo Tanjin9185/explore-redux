@@ -4,7 +4,6 @@ import { Link } from 'react-router-dom'
 const Products = () => {
     const products = useSelector((state) => state.allProduct.products)
 
-
     return (
         <div>
             {

@@ -1,7 +1,7 @@
 import './App.css';
 import { BrowserRouter, Routes, Route, Link } from 'react-router-dom';
 import ProductLoading from './components/ProductLoading';
-import ProductDetails from './components/ProductDetails';
+import ProductDetails from './components/productDetails/ProductDetails';
 
 function App() {
   return (
